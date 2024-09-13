@@ -1,0 +1,1 @@
+Tugas ini adalah sebuah proyek yang dibangun untuk memenuhi salah satu tugas mata kuliah Pemrograman Web Dinamis (PWD). Proyek ini menggunakan HTML, CSS, dan PHP sebagai teknologi utama untuk membangun website dengan berbagai fitur terkait data mahasiswa.
