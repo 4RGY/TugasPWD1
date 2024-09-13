@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Argy Anggara | Biodata</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            text-align: center;
+            margin: 0;
+            background-color: #F1F3C2;
+        }
+        h1 {
+            font-size: 40px;
+            color: black
+        }
+        h6 {
+            font-size: 15px;
+            overflow: hidden;
+            border-right: .15em solid black;
+            white-space: nowrap;
+            margin: 0 auto;
+            letter-spacing: .15em;
+            animation: typing 3.5s steps(30, end), blink-caret .75s step-end infinite;
+        }
+         .container {
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+         } 
+
+         span{
+            color: #00408a;
+         }
+         
+         .btn {
+         display: inline-block;
+         padding: 12px 25px;
+         font-size: 16px;
+         font-weight: bold;
+         color: #0056b3;
+         background-color: transparent;
+         text-decoration: none;
+         border-radius: 5px;
+         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+         transition: background-color 0.3s ease, box-shadow 0.3s ease;
+         }
+
+         .btn:hover {
+         background-color: #0056b3;
+         color: white;
+         box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+         }
+
+         .btn:active {
+         background-color: #00408a;
+         }
+    </style>
+
+</head>
+
+<body>
+    <div class="container">
+    <h1>Hello! My name is Argy Anggara</h1>
+    <h6>I'm a <span class="auto-type"></span></h6>
+    <br>
+    <a class="btn" href="about.html">Learn More</a>
+    </div>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+<script>
+    var typed = new Typed(".auto-type",{
+        strings : ["Student", "Backend Developer", "Data Analyst", "Courier"],
+        typeSpeed : 150,
+        backSpeed : 150,
+        loop : true
+    })
+</script>
+</html>

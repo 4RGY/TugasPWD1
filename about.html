@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #F1F3C2;
+        }
+
+        .container {
+            width: 800px;
+            padding: 20px;
+            background-color: #f5f5f5;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            text-align: left;
+        }
+
+        .text {
+            flex: 1;
+            padding-right: 20px;
+        }
+
+        .text h2 {
+            font-size: 32px;
+            margin: 10px 0;
+        }
+
+        .text p {
+            font-size: 18px;
+            margin: 5px 0;
+        }
+
+        .image {
+            flex-shrink: 0;
+        }
+
+        .image img {
+            width: 250px;
+            height: 250px;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+
+        .social-media {
+            margin-top: 20px;
+        }
+
+        .social-media a {
+            text-decoration: none;
+            color: #333;
+            margin: 0 10px;
+            font-size: 24px;
+        }
+
+        .social-media a:hover {
+            color: #007BFF;
+        }
+
+        .btn-download,
+        .btn-back {
+            display: inline-block;
+            padding: 10px 20px;
+            font-size: 16px;
+            font-weight: bold;
+            color: white;
+            background-color: #007BFF;
+            text-decoration: none;
+            border-radius: 5px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: background-color 0.3s ease, box-shadow 0.3s ease;
+            margin: 10px;
+        }
+
+        .btn-download:hover,
+        .btn-back:hover {
+            background-color: #0056b3;
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+        }
+
+        .btn-download:active,
+        .btn-back:active {
+            background-color: #00408a;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="text">
+            <h2>Argy Anggara</h2>
+            <p><strong>NPM:</strong> 202333500619</p>
+            <p><strong>Location:</strong> Jakarta, Indonesia</p>
+            <p><strong>Phone:</strong> (+62) 851-5680-3978</p>
+            <p><strong>Religion:</strong> Islam</p>
+            <p><strong>Gender:</strong> Male</p>
+            <div class="social-media">
+                <a href="https://www.instagram.com/argy.avg" target="_blank" class="social-icon"><i
+                        class="fab fa-instagram"></i></a>
+                <a href="https://x.com/agooay" target="_blank" class="social-icon"><i class="fab fa-x"></i></a>
+                <a href="https://github.com/4RGY" target="_blank" class="social-icon"><i
+                        class="fab fa-github"></i></a>
+            </div>
+            <a href="assets/cv_argyy.pdf" download class="btn-download">Download CV</a>
+            <a href="index.html" class="btn-back">Back to Index</a>
+        </div>
+        <div class="image">
+            <img src="assets/formal.jpg" alt="Profile Photo">
+        </div>
+    </div>
+</body>
+
+</html>
